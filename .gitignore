@@ -1,0 +1,16 @@
+# Xcode
+
+## Build generated
+build/
+DerivedData
+
+## OS X System files
+.DS_Store
+
+# Cocoapods
+Pods/
+demos/**/Pods/
+Podfile.lock
+
+## Cache
+InstagramCloneSwiftUI.xcodeproj/project.xcworkspace/xcuserdata/
