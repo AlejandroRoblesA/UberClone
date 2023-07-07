@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A92677502A58A0E4000B4E25 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A926774F2A58A0E4000B4E25 /* HomeView.swift */; };
+		A92677522A58A159000B4E25 /* UberMapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92677512A58A159000B4E25 /* UberMapViewRepresentable.swift */; };
 		A98E15C02A561E8400C850D9 /* UberCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98E15BF2A561E8400C850D9 /* UberCloneApp.swift */; };
 		A98E15C42A561E8500C850D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A98E15C32A561E8500C850D9 /* Assets.xcassets */; };
 		A98E15C72A561E8500C850D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A98E15C62A561E8500C850D9 /* Preview Assets.xcassets */; };
@@ -15,6 +16,7 @@
 
 /* Begin PBXFileReference section */
 		A926774F2A58A0E4000B4E25 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A92677512A58A159000B4E25 /* UberMapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberMapViewRepresentable.swift; sourceTree = "<group>"; };
 		A98E15BC2A561E8400C850D9 /* UberClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A98E15BF2A561E8400C850D9 /* UberCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberCloneApp.swift; sourceTree = "<group>"; };
 		A98E15C32A561E8500C850D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				A926774F2A58A0E4000B4E25 /* HomeView.swift */,
+				A92677512A58A159000B4E25 /* UberMapViewRepresentable.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A98E15C02A561E8400C850D9 /* UberCloneApp.swift in Sources */,
+				A92677522A58A159000B4E25 /* UberMapViewRepresentable.swift in Sources */,
 				A92677502A58A0E4000B4E25 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
