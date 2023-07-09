@@ -22,7 +22,7 @@ struct HomeView: View {
                         showLocationsSearchView.toggle()
                     }
             }
-            MapViewActionButton()
+            MapViewActionButton(showLocationSerchView: $showLocationsSearchView)
                 .padding(.leading)
                 .padding(.top, 4)
         }
