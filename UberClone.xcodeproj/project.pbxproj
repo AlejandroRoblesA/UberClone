@@ -17,6 +17,7 @@
 		A98E15C02A561E8400C850D9 /* UberCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98E15BF2A561E8400C850D9 /* UberCloneApp.swift */; };
 		A98E15C42A561E8500C850D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A98E15C32A561E8500C850D9 /* Assets.xcassets */; };
 		A98E15C72A561E8500C850D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A98E15C62A561E8500C850D9 /* Preview Assets.xcassets */; };
+		A9F06BC02A5CC19800D9211A /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F06BBF2A5CC19800D9211A /* LocationSearchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		A98E15BF2A561E8400C850D9 /* UberCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberCloneApp.swift; sourceTree = "<group>"; };
 		A98E15C32A561E8500C850D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A98E15C62A561E8500C850D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9F06BBF2A5CC19800D9211A /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		A930D4092A5A76AB004483A1 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A9F06BBF2A5CC19800D9211A /* LocationSearchViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F06BC02A5CC19800D9211A /* LocationSearchViewModel.swift in Sources */,
 				A930D4112A5A7E87004483A1 /* LocationSearchView.swift in Sources */,
 				A92677542A58A386000B4E25 /* LocationManager.swift in Sources */,
 				A930D40F2A5A7901004483A1 /* MapViewActionButton.swift in Sources */,
