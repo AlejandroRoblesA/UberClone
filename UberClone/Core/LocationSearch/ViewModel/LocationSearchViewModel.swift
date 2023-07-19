@@ -12,7 +12,7 @@ class LocationSearchViewModel: NSObject, ObservableObject {
     
     // MARK: - Properties
     @Published var results = [MKLocalSearchCompletion]()
-    @Published var selectedLocation: String?
+    @Published var selectedLocationCoordinate: CLLocationCoordinate2D?
     private let searchCompleter = MKLocalSearchCompleter()
     var queryFragment: String = "" {
         didSet {
@@ -34,6 +34,7 @@ class LocationSearchViewModel: NSObject, ObservableObject {
             }
             guard let item = response?.mapItems.first else { return }
             let coordinate = item.placemark.coordinate
+            self.selectedLocationCoordinate = coordinate
             print("DEBUG: Location coordinates \(coordinate)")
         }
     }
