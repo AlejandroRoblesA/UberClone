@@ -60,6 +60,7 @@ extension UberMapViewRepresentable {
             annotation.coordinate = coordinate
             self.parent.mapView.addAnnotation(annotation)
             self.parent.mapView.selectAnnotation(annotation, animated: true)
+            self.parent.mapView.showAnnotations(self.parent.mapView.annotations, animated: true)
         }
     }
 }
