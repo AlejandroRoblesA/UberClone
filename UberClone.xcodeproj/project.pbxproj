@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A901F94A2A6B200C00383367 /* MapViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A901F9492A6B200C00383367 /* MapViewState.swift */; };
 		A92677502A58A0E4000B4E25 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A926774F2A58A0E4000B4E25 /* HomeView.swift */; };
 		A92677522A58A159000B4E25 /* UberMapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92677512A58A159000B4E25 /* UberMapViewRepresentable.swift */; };
 		A92677542A58A386000B4E25 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92677532A58A386000B4E25 /* LocationManager.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A901F9492A6B200C00383367 /* MapViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewState.swift; sourceTree = "<group>"; };
 		A926774F2A58A0E4000B4E25 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A92677512A58A159000B4E25 /* UberMapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberMapViewRepresentable.swift; sourceTree = "<group>"; };
 		A92677532A58A386000B4E25 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		A926774A2A58A06C000B4E25 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A901F9492A6B200C00383367 /* MapViewState.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				A9F06BC02A5CC19800D9211A /* LocationSearchViewModel.swift in Sources */,
 				A930D4112A5A7E87004483A1 /* LocationSearchView.swift in Sources */,
 				A92677542A58A386000B4E25 /* LocationManager.swift in Sources */,
+				A901F94A2A6B200C00383367 /* MapViewState.swift in Sources */,
 				A930D40F2A5A7901004483A1 /* MapViewActionButton.swift in Sources */,
 				A98E15C02A561E8400C850D9 /* UberCloneApp.swift in Sources */,
 				A92677522A58A159000B4E25 /* UberMapViewRepresentable.swift in Sources */,
