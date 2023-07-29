@@ -29,7 +29,7 @@ struct RideRequestView: View {
                 VStack(alignment: .leading, spacing: 24) {
                     HStack {
                         Text("Current Location")
-                            .font(.system(size: 16))
+                            .font(.system(size: 16, weight: .semibold))
                             .foregroundColor(.gray)
                         Spacer()
                         Text("1:30 PM")
@@ -39,15 +39,17 @@ struct RideRequestView: View {
                     .padding(.bottom, 10)
                     HStack {
                         Text("Starbucks Coffe")
-                            .font(.system(size: 16))
-                            .foregroundColor(.gray)
+                            .font(.system(size: 16, weight: .semibold))
                         Spacer()
                         Text("1:45 PM")
                             .font(.system(size: 14, weight: .semibold))
                             .foregroundColor(.gray)
                     }
                 }
+                .padding(.leading, 8)
             }
+            .padding()
+            Divider()
         }
     }
 }
