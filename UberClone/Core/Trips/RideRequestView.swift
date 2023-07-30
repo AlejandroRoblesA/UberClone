@@ -81,6 +81,8 @@ struct RideRequestView: View {
             }
             .padding(.horizontal)
             
+            Divider()
+                .padding(.vertical, 8)
             HStack(spacing: 12) {
                 Text("Visa")
                     .font(.subheadline)
@@ -101,7 +103,19 @@ struct RideRequestView: View {
             .background(Color(.systemGroupedBackground))
             .cornerRadius(10)
             .padding(.horizontal)
+            
+            Button {
+                
+            } label: {
+                Text("CONFIRM RIDE")
+                    .fontWeight(.bold)
+                    .frame(width: UIScreen.main.bounds.width - 32, height: 50)
+                    .background(.blue)
+                    .cornerRadius(10)
+                    .foregroundColor(.white)
+            }
         }
+        .background(.white)
     }
 }
 
