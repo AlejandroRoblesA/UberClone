@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct RideRequestView: View {
+    @State private var selectedRideType: RideType = .uberX
     var body: some View {
         VStack {
             Capsule()
@@ -66,17 +67,24 @@ struct RideRequestView: View {
                             Image(type.imageName)
                                 .resizable()
                                 .scaledToFit()
-                            VStack(spacing: 4) {
+                            VStack(alignment: .leading, spacing: 4) {
                                 Text(type.description)
                                     .font(.system(size: 14, weight: .semibold))
                                 Text("$22.04")
                                     .font(.system(size: 14, weight: .semibold))
                             }
-                            .padding(8)
+                            .padding()
                         }
                         .frame(width: 112, height: 140)
-                        .background(Color(.systemGroupedBackground))
+                        .foregroundColor(type == selectedRideType ? .white : .black)
+                        .background(Color(type == selectedRideType ? .systemBlue : .systemGroupedBackground))
+                        .scaleEffect(type == selectedRideType ? 1.1 : 0.9)
                         .cornerRadius(10)
+                        .onTapGesture {
+                            withAnimation(.spring()) {
+                                selectedRideType = type
+                            }
+                        }
                     }
                 }
             }
