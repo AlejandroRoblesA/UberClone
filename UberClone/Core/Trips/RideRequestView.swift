@@ -71,7 +71,7 @@ struct RideRequestView: View {
                             VStack(alignment: .leading, spacing: 4) {
                                 Text(type.description)
                                     .font(.system(size: 14, weight: .semibold))
-                                Text("$ \(locationViewModel.computeRidePrice(forType: type))")
+                                Text(locationViewModel.computeRidePrice(forType: type).toCurrency())
                                     .font(.system(size: 14, weight: .semibold))
                             }
                             .padding()
